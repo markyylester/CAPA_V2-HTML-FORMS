@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #ed1c24;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .carousel {
+    margin-top: 20px;
+  }
+  
+  .container .button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ed1c24;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .container .button:hover {
+    background-color: rgb(204, 0, 194);
+  }
+  
+  .container h2 {
+    color: #333;
+  }
+  
+  .best-sellers,
+  .new-products,
+  .categories {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .best-sellers h2,
+  .new-products h2,
+  .categories h2 {
+    margin-bottom: 20px;
+  }
+  
+  .best-sellers .carousel,
+  .new-products .carousel {
+    margin-bottom: 20px;
+  }
+  
+  .best-sellers .item,
+  .new-products .item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .best-sellers .item h3,
+  .new-products .item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .best-sellers .item p.price,
+  .new-products .item p.price {
+    color: #a01ced;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .categories ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .categories ul li {
+    margin-bottom: 10px;
+  }
+  
+  .categories ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  footer nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  footer nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-media {
+    float: right;
+  }
+  
+  .social-media a {
+    color: #fff;
+    margin-left: 10px;
+  }

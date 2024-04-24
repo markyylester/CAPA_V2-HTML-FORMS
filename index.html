@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pare's Pares</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+<style>
+  header {
+    padding: 50px;
+  }
+
+  header img {
+    max-width: 100px; 
+  }
+
+  .carousel img {
+    width: 100%; 
+    height: 300px;
+    object-fit: cover; 
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <img src="images/paresmami.png" alt="Pares Food">
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#signin">Sign In</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+</body>
+</html>
+
+
+
+
+</body>
+</html>
+
+
+<div class="carousel">
+  <div><img src="images/pares1.jpg" alt="Carousel Image 1"></div>
+  <div><img src="images/pares2.jpg" alt="Carousel Image 2"></div>
+  <div><img src="images/pares4.jpg" alt="Carousel Image 3"></div>
+</div>
+
+<div class="container">
+  <a href="#neworder" class="button">Start New Order</a>
+</div>
+
+<div class="container best-sellers">
+  <h2>Best Sellers</h2>
+  <div class="carousel">
+    <div><img src="images/beefpares.jpg" alt="Best Seller 1"></div>
+    <div><img src="images/pares.png" alt="Best Seller 2"></div>
+    <div><img src="images/pork.jpg" alt="Best Seller 3"></div>
+  </div>
+  <div class="item">
+    <h3>Beef Pares with Garlic Rice</h3>
+    <p class="price">90 pesos</p>
+    <h4>Classica Pares</h4>
+    <p class="price">55 pesos</p>
+    <h5>Pork Pares</h5>
+    <p class="price">70 pesos</p>
+  </div>
+</div>
+
+<div class="container new-products">
+  <h2>New Products</h2>
+  <div class="carousel">
+    <div><img src="images/spicy adobo.jpg" alt="New Product 1"></div>
+    <div><img src="images/porksisig.jpg" alt="New Product 2"></div>
+    <div><img src="images/hotsilog.jpg" alt="New Product 3"></div>
+  </div>
+  <div class="item">
+    <h3>Spicy Adobo </h3>
+    <p class="price">80 pesos </p>
+    <h4>Pork Sisig</h4>
+    <p class="price">100 pesos</p>
+    <h5>Hotsilog</h5>
+    <p class="price">40 pesos</p>
+  </div>
+</div>
+
+<div class="container categories">
+  <h2>Categories (Full Menu)</h2>
+  <ul>
+    <li><a href="#beef-pares">Beef Pares</a></li>
+    <li><a href="#pork-pares">Pork Pares</a></li>
+    <li><a href="#rice-meals">Rice Meals</a></li>
+  </ul>
+</div>
+
+<footer>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#terms">Terms and Conditions</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+        <li><a href="#connect">Stay Connected</a></li>
+      </ul>
+    </nav>
+    <div class="social-media">
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.carousel').slick({
+      autoplay: true,
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  });
+</script>
+</body>
+</html>
